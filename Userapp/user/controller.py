@@ -1,5 +1,5 @@
 from Userapp import mongo
-
+print("pp")
 
 def get_all_users():
     result = mongo.db.UserInfo.find({"isDeleted": "False"}, {'_id': 0})
