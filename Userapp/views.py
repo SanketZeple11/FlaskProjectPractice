@@ -3,7 +3,7 @@ from Userapp.master.views import refreshtoken, login, logout, register
 from Userapp.user.views import getAllUser, getUser
 from Userapp.role.views import udtpassword
 
-
+print("hhh")
 
 
 app.register_blueprint(refreshtoken)

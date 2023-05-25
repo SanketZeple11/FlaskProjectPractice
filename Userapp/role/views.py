@@ -11,6 +11,7 @@ class UpdatePassword(Resource):
     def put(self, username):
         data = request.get_json()
         print(data)
+        print("UpdatePassword")
         result = updatePassword(username, data)
         if result is True:
             return make_response(jsonify("Update Password Succesfully"), 200)
