@@ -9,7 +9,7 @@ from .controller import get_all_users, get_user, delete_user
 getAllUser = Blueprint('getAllUser', __name__)
 getUser = Blueprint('getUser', __name__)
 
-
+print("kkk")
 class GetAllUsers(Resource):
     @jwt_required()
     def get(self):

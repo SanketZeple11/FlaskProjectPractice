@@ -1,6 +1,6 @@
 from Userapp import app
-print("op")
-print("no")
+print("FEATURE")
+print("new")
 if __name__ == "__main__":
     app.run()
 
