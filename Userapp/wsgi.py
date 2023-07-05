@@ -3,8 +3,5 @@
 # print("new")
 # if __name__ == "__main__":
 #     app.run()
-
-print("Madara")
-print("hii")
-
+print("deku")
 
